@@ -18,6 +18,7 @@
 		69285BE41751D96F0056558F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69285BE31751D96F0056558F /* Default-568h@2x.png */; };
 		69285BE71751D96F0056558F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69285BE51751D96F0056558F /* MainStoryboard.storyboard */; };
 		69285BEA1751D96F0056558F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69285BE91751D96F0056558F /* ViewController.m */; };
+		69285BFB175203A20056558F /* ClassThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 69285BFA175203A20056558F /* ClassThree.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		69285BE61751D96F0056558F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		69285BE81751D96F0056558F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		69285BE91751D96F0056558F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		69285BF9175203A20056558F /* ClassThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassThree.h; sourceTree = "<group>"; };
+		69285BFA175203A20056558F /* ClassThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassThree.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				69285BE51751D96F0056558F /* MainStoryboard.storyboard */,
 				69285BE81751D96F0056558F /* ViewController.h */,
 				69285BE91751D96F0056558F /* ViewController.m */,
+				69285BF9175203A20056558F /* ClassThree.h */,
+				69285BFA175203A20056558F /* ClassThree.m */,
 				69285BD41751D96F0056558F /* Supporting Files */,
 			);
 			path = GitTestMay26;
@@ -176,6 +181,7 @@
 				69285BDA1751D96F0056558F /* main.m in Sources */,
 				69285BDE1751D96F0056558F /* AppDelegate.m in Sources */,
 				69285BEA1751D96F0056558F /* ViewController.m in Sources */,
+				69285BFB175203A20056558F /* ClassThree.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +304,7 @@
 				69285BEF1751D96F0056558F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
